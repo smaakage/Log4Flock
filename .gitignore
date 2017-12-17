@@ -158,6 +158,8 @@ $RECYCLE.BIN/
 
 # Nuget
 *.nupkg
+*/nugetpush
+Log4Flock/nuget/lib
 
 # .vs
 .vs/**/storage.ide

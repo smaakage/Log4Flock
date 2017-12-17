@@ -81,7 +81,6 @@ namespace Log4Flock {
 
                 var data = _encoding.GetBytes(json);
                 request.ContentLength = data.Length;
-                request.Method = "POST";
                 request.ContentType = "application/json";
 
                 _requests.Add(request);
