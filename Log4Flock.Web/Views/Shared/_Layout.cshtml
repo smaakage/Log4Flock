@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="frame-src 'none'">
+    
+    <head>
+        <title>Log4Slack - Stack Trace</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+        <script src="~/Scripts/codemirror.js"></script>
+        <link rel="stylesheet" href="~/Content/codemirror.css"/>
+        <link rel="stylesheet" href="~/Content/CodeMirrorThemes/neat.css"/>
+    </head>
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="body-container">
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

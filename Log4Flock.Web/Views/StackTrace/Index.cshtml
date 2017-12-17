@@ -1,0 +1,25 @@
+﻿@model string
+
+<div class="CodeMirror cm-s-default">
+    <form>
+    <textarea id="code">@Html.Raw(Model)</textarea>
+    </form>
+    <script>
+        //var myCodeMirror = CodeMirror.fromTextArea(myTextArea);
+        var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+            lineNumbers: true,
+            theme: "neat",
+            readOnly: true,
+            extraKeys: {
+                "F11": function(cm) {
+                    cm.setOption("fullScreen", !cm.getOption("fullScreen"));
+                },
+                "Esc": function(cm) {
+                    if (cm.getOption("fullScreen")) cm.setOption("fullScreen", false);
+                }
+            }
+        });
+        editor.setSize("100%", "100%");
+        editor.refresh();
+    </script>
+</div>
