@@ -80,7 +80,7 @@ namespace Log4Flock
             var stackTrace = string.Empty;
 
             // Set fallback string
-            var attachment = new Attachment(DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss.fff"));
+            var attachment = new Attachment($"[{loggingEvent.Level.DisplayName.ToLowerInvariant()}] {DateTime.Now:MM-dd-yyyy HH:mm:ss.fff}");
 
             // Determine attachment color
             switch (loggingEvent.Level.DisplayName.ToLowerInvariant())

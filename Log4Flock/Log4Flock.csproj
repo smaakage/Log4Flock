@@ -54,7 +54,6 @@
     <Compile Include="FlockClient.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Log4Flock.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
