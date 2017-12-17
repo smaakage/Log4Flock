@@ -21,7 +21,7 @@
 * **Rasmus Jørgensen** - *Customized it to work with Flock*
 * **John Freeland** - *Initial work for Log4Slack* - [Log4Slack](https://github.com/jonfreeland/Log4Slack)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/smaakage/Log4Flock/graphs/contributors) who participated in this project.
 
 ## License
 
