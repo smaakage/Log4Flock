@@ -1,4 +1,4 @@
-## Getting Started
+## App.config
 
 ```xml
 <appender name="FlockAppender" type="Log4Flock.FlockAppender, Log4Flock">
