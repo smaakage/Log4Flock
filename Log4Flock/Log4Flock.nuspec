@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Log4Flock</id>
+    <version>1.0.0</version>
+    <title>Log4Flock</title>
+    <authors>Rasmus Jørgensen</authors>
+    <owners>Rasmus Jørgensen</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple, asynchronous Flock log4net appender.</description>
+    <copyright>Copyright © 2017 Rasmus Jørgensen</copyright>
+	<tags>flock log4net appender</tags>
+	<language>en-us</language>
+    <dependencies>
+      <dependency id="log4net" version="2.0.3" />
+    </dependencies>
+  </metadata>
+</package>
